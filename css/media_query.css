@@ -1,0 +1,61 @@
+@media (max-width: 1900px) {
+    .left{
+        background-color: black;
+        position: absolute;
+        left: -120%;
+        z-index: 1;
+        transition: all .3s;
+        width: 500px;
+        
+    }
+
+    .left .close{
+        position: absolute;
+        right: 31px;
+        top: 25px;
+        width: 29px;
+        display: block;
+        
+    }
+
+    .right{
+        width: 100vw;
+        height: 100vh;
+        /* margin: 10px 0; */
+        /* margin-right: 10px; */
+        border-radius: 10px;
+        position: absolute;
+    }
+
+    .play{
+        opacity: 1;
+        top: 204px;
+    }
+
+    .artist .card_container{
+        
+        flex-direction: column;
+        overflow-y: auto;
+    }
+
+    .play_song_bar{
+        width: calc(100vw - 60px);
+        position: fixed;
+        background-color: rgb(74 71 71);
+        margin-left: 16px;
+    }
+
+    
+   .play_song_bar .seekbar{
+        width: 94vw;
+    }
+
+    .hamburger{
+        display: block;
+        width: 40px;
+        padding-left: 10px;
+    }
+    
+    
+}
+  

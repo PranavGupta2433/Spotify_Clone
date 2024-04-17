@@ -1,0 +1,33 @@
+.red_border{
+    border: solid red 2px;
+    margin: 3px;
+} 
+
+.flex{
+    display: flex;
+}
+.justify_centre{
+    justify-content: center;
+}
+
+.items_centre{
+    align-items: center;
+}
+
+.bg_black{
+    background-color: black;
+    color: white;
+}
+
+.bg_grey{
+    background-color: #242424;
+    color: white;
+}
+
+.invert{
+    filter: invert(1);
+} /* to invert/convert black image into white */
+
+.btn{
+    cursor: pointer;
+}
